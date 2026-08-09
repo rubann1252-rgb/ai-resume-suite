@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Suite",
+  "description": "An AI-powered resume builder, ATS compatibility scanner, real-time interview coach, and certification recommendations platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
