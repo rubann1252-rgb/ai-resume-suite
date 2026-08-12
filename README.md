@@ -37,43 +37,6 @@ An end-to-end, AI-powered Resume Builder, ATS Compatibility Scanner, and Interac
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- **Node.js**: `v18+` or `v20+`
-- **npm**: `v9+`
-- **Google Gemini API Key**: Obtain a free key from [Google AI Studio](https://aistudio.google.com/)
-
----
-
-### Installation & Local Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-resume-suite.git
-   cd ai-resume-suite
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**:
-   Create a `.env` file in the root directory and add your Gemini API key:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   PORT=3000
-   ```
-
-4. **Run Development Server**:
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
 ## 📦 Available Scripts
 
 - `npm run dev`: Starts the Node/Express backend with Vite development middleware.
@@ -82,24 +45,6 @@ An end-to-end, AI-powered Resume Builder, ATS Compatibility Scanner, and Interac
 - `npm run lint`: Runs TypeScript type-checking without emitting code.
 
 ---
-
-## 🌐 Deployment Guidelines
-
-### Deploying on Render (Full-Stack Web Service)
-This application includes a custom Express server that handles Gemini AI proxy requests and serves static files.
-
-1. Create a new **Web Service** on [Render.com](https://render.com).
-2. Connect your GitHub repository.
-3. Set the following build settings:
-   - **Environment**: `Node`
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm start`
-4. Add Environment Variables in Render:
-   - `GEMINI_API_KEY` = *your_gemini_api_key*
-   - `NODE_ENV` = `production`
-
----
-
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
