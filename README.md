@@ -37,12 +37,6 @@ An end-to-end, AI-powered Resume Builder, ATS Compatibility Scanner, and Interac
 
 ---
 
-## 📦 Available Scripts
-
-- `npm run dev`: Starts the Node/Express backend with Vite development middleware.
-- `npm run build`: Compiles the React client with Vite and bundles `server.ts` into CommonJS (`dist/server.cjs`) using ESBuild.
-- `npm start`: Runs the production server (`node dist/server.cjs`).
-- `npm run lint`: Runs TypeScript type-checking without emitting code.
 
 ---
 ## 📜 License
